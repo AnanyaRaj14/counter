@@ -6,19 +6,13 @@
     height: 400px;
     width: 500px;
     background-color: #212121;
-    /* padding: 20%; */
-    /* margin-left: 500px; */
+    margin-left: 500px;
     margin-top: 150px;
-    /* display: flex;
-    align-items: center */
-
 }
 p{
     color: #fff;
     font-size: 25px;
-    /* margin: 20px; */
     padding: 30px;
-
 }
 .box{
     width: 100%;
