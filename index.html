@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>counter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <p>This page has the ability to increment, decrement and reset the value.</p>
+        <div class="box">
+            <input type="text" placeholder="Enter the number">
+        </div>
+        <div class="btn">
+            <button id="increment" onclick="increase()">Increment</button>
+            <button id="restart" onclick="restart()">Restart</button>
+            <button id="decrement" onclick="decrease()">Decrement</button>
+        </div>
+    </div>
+
+
+
+    <script>
+        let divElement = document.getElementsByClassName('box');
+        let inputValue = divElement.querySelector('input').value;
+
+        function increase(){
+            inputValue++;
+        }
+
+        function decrease(){
+            if(inputValue>0){
+                inputValue--;
+            }else{
+                inputValue = 0;
+            }
+        }
+
+        function restart(){
+            inputValue = 0;
+        }
+
+    </script>
+</body>
+</html>

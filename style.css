@@ -1,0 +1,50 @@
+*{
+    margin = 0;
+    padding: 0;
+}
+.container{
+    height: 400px;
+    width: 500px;
+    background-color: #212121;
+    /* padding: 20%; */
+    /* margin-left: 500px; */
+    margin-top: 150px;
+    /* display: flex;
+    align-items: center */
+
+}
+p{
+    color: #fff;
+    font-size: 25px;
+    /* margin: 20px; */
+    padding: 30px;
+
+}
+.box{
+    width: 100%;
+    
+}
+.box input{
+    padding: 10px;
+    width: 90%;
+    margin: 15px;
+   
+}
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px;
+}
+button{
+    padding: 6px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+#increment{
+    background-color: green;
+}
+#decrement{
+    background-color: red;
+}
